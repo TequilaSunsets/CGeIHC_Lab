@@ -7,6 +7,7 @@
 //////////////////////////////INTERACCIÓN HUMANO COMPUTADORA/////////////////////////////
 
 NOMBRE COMPLETO: TREJO SÁNCHEZ KEVIN
+PRÁCTICA: 01
 N° De Cuenta: 317259889
 GRUPO DE LABORATORIO: 11
 GRUPO DE TEORÍA: 04
