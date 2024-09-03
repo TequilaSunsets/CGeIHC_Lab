@@ -14,4 +14,4 @@ SEMESTRE: 2025-1
 FECHA DE ENTREGA LIMITE: 31/08/2024
 
 shaders: Esta carpeta contiene el shader que se modifico para poder utilizar la cámara.
-Windows.cpp: Este archivo sirve simplmente para cambiar el nombre de la ventana que se despliegue.
+Windows.cpp: Este archivo sirve simplemente para cambiar el nombre de la ventana que se despliega.
