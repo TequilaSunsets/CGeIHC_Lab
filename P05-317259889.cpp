@@ -1,5 +1,5 @@
 /*
-Pr·ctica 5: OptimizaciÛn y Carga de Modelos
+Pr√°ctica 5: Optimizaci√≥n y Carga de Modelos
 */
 //para cargar imagen
 #define STB_IMAGE_IMPLEMENTATION
@@ -197,7 +197,7 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color));
 		meshList[2]->RenderMesh();
 
-		//------------*INICIA DIBUJO DE NUESTROS DEM¡S OBJETOS-------------------*
+		//------------*INICIA DIBUJO DE NUESTROS DEM√ÅS OBJETOS-------------------*
 		color = glm::vec3(0.0f, 0.0f, 1.0f); //modelo de goddard de color negro
 
 		model = glm::mat4(1.0);
@@ -246,24 +246,6 @@ int main()
 		glUniform3fv(uniformColor, 1, glm::value_ptr(color));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model)); //Mandar al shader para modelo
 		Coche_llantaTD.RenderModel();//modificar por el modelo sin las 4 patas y sin cola
-
-		//Siguientes modelos
-		/* Ejercicio:
-		1.- Separar las 4 patas de Goddard del modelo del cuerpo, unir por medio de jerarquÌa cada pata al cuerpo de Goddard
-		2.- Hacer que al presionar una tecla cada pata pueda rotar un m·ximo de 45∞ "hacia adelante y hacia atr·s"
-		*/
-
-		//pata delantera derecha
-		modelaux = model;
-
-		// pata delantera izquierda
-		modelaux = model;
-		//pata trasera derecha
-		modelaux = model;
-
-		//pata trasera izquierda
-		modelaux = model;
-
 
 		glUseProgram(0);
 
