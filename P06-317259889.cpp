@@ -1,5 +1,5 @@
 /*
-Pr·ctica 6: Texturizado
+Pr√°ctica 6: Texturizado
 */
 //para cargar imagen
 #define STB_IMAGE_IMPLEMENTATION
@@ -82,7 +82,7 @@ static const char* fShader = "shaders/shader_texture.frag";
 
 
 
-//c·lculo del promedio de las normales para sombreado de Phong
+//c√°lculo del promedio de las normales para sombreado de Phong
 void calcAverageNormals(unsigned int* indices, unsigned int indiceCount, GLfloat* vertices, unsigned int verticeCount,
 	unsigned int vLength, unsigned int normalOffset)
 {
@@ -416,7 +416,7 @@ int main()
 	Cofre = Model();
 	Cofre.LoadModel("Models/Cofre.obj");
 
-	/////////////////////Auto Estilo Cars Modelos////////////////////////////
+	/////////////////////tEXTURAS PARA NUESTRO D10////////////////////////////
 	Dado10 = Texture("Textures/TexDado.png");
 	Dado10.LoadTextureA();
 
@@ -479,7 +479,7 @@ int main()
 		glUniformMatrix4fv(uniformView, 1, GL_FALSE, glm::value_ptr(camera.calculateViewMatrix()));
 		glUniform3f(uniformEyePosition, camera.getCameraPosition().x, camera.getCameraPosition().y, camera.getCameraPosition().z);
 
-		color = glm::vec3(1.0f, 1.0f, 1.0f);//color blanco, multiplica a la informaciÛn de color de la textura
+		color = glm::vec3(1.0f, 1.0f, 1.0f);//color blanco, multiplica a la informaci√≥n de color de la textura
 
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(0.0f, -2.0f, 0.0f));
