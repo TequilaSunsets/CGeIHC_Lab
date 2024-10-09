@@ -6,6 +6,8 @@
 ///////////////////////////LABORATORIO DE COMPUTACION GRAFICA e//////////////////////////
 //////////////////////////////INTERACCIÓN HUMANO COMPUTADORA/////////////////////////////
 
+Para ejecutar el Release del proyecto es necesario ir a las carpetas "Textures" & "Models" y descomprimir los archivos comprimidos que se encuentra en ellas, de otro caso el prorama no podra ejecutarse.
+
 NOMBRE COMPLETO: TREJO SÁNCHEZ KEVIN
 N° De Cuenta: 317259889
 GRUPO DE LABORATORIO: 11
